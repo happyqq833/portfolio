@@ -1,0 +1,64 @@
+.closing-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+  pointer-events: none;
+}
+ .black .closing-panel{
+  background-color: #202020;
+
+}
+
+.closing-panel {
+  width: 100%;
+  height: 100%;
+  background-color: #fff; 
+  transition: transform 1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.href{
+  margin-top: 20px;
+  color: #4169e1;
+  font-size: 30px;
+  font-weight: 800;
+}
+.closing-panel-left {
+  transform: translateX(0);
+}
+
+
+.closing .closing-panel-left {
+  transform: translateX(-100%);
+}
+
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flower-svg {
+  width: 100%;
+  height: 100%;
+}

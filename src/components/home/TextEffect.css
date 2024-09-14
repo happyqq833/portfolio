@@ -1,0 +1,20 @@
+/* TextEffect.css */
+.fade-in-text {
+    display: inline;
+    font-size: 2em;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #4169e1;
+    color: hotpink;
+    border-right: .15em solid #4169e1;
+    border-right: .15em solid hotpink; /* Tạo hiệu ứng con trỏ gõ chữ */
+    font-family: monospace;
+    animation: blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: hotpink; }
+  }
+  

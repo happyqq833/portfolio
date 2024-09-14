@@ -1,0 +1,17 @@
+/* TextEffect.css */
+.fade-in-text1 {
+    display: inline;
+    font-size: 1.2em;
+    white-space: wrap;
+    margin-bottom: 20px;
+    color: #fff;
+    border-right: .10em solid white; /* Tạo hiệu ứng con trỏ gõ chữ */
+    font-family: monospace;
+    animation: blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+  }
+  
